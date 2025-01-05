@@ -1,14 +1,11 @@
-import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import CartPage from "./pages/CartPage";
-import { useAuth } from "./context/AuthContext";
 import ProductDetail from "./pages/ProductDetail";
 import SignUpPage from "./pages/SignUpPage";
 
 const App = () => {
-  const { isAuthenticated } = useAuth();
 
   return (
     <div>
