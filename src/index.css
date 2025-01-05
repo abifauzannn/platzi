@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tambahkan aturan ini di file CSS global */
+/* Area yang ingin kamu scroll */
+.scrollable-container {
+  overflow: auto;  /* Atau 'scroll' untuk memaksa scrollbar */
+  max-height: 80vh; /* Mengatur batas tinggi agar scroll bisa muncul */
+}
+
